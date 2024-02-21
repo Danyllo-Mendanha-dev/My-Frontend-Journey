@@ -1,0 +1,46 @@
+// Estruturas Condicionais
+
+if (instrução for verdadeira) {
+  comando
+} else if (executa outra instrução para ser analisada caso o if retorne false ) {
+  comando
+} else { é executado caso nenhuma das condições anteriores sejam verdadeiras
+  comando
+}
+
+// Estruturas de repetição
+
+for (let i = 0; i < arr.length; i++) {
+  comando
+}
+
+i = 0  (inicialização)
+i < arr.length  (condição)
+i++  (incremento) i += 1
+
+
+while (i < arr.length) {
+  comando
+  i++
+}
+
+Incremento o i até que a condição seje atendida
+
+do {
+  i++
+  result += i 
+} while (i < 5)
+
+O bloco de código é executado pelo menos uma vez, pois a condição é executada 
+depois do bloco
+
+
+switch (expressão) {
+  case '' || 0
+  break
+}
+
+// Estruturas de Controle de Fluxo
+
+Break: Encerra a execução de um loop
+Continue: Pula a iteração em particular de um loop e continua a próxima iteração
